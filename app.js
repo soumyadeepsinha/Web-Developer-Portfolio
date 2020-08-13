@@ -1,5 +1,3 @@
-console.log('Its Working');
-
 let theme = localStorage.getItem('theme')
 if (theme == null) {
   setTheme('light');
@@ -8,12 +6,11 @@ if (theme == null) {
 }
 
 
-let themeDots = document.getElementsByClassName('theme_dot')
+let themes = document.getElementsByClassName('theme_dot')
 
-for (let i = 0; themeDots.length > i; i++) {
-  themeDots[i].addEventListener('click', function () {
+for (let i = 0; themes.length > i; i++) {
+  themes[i].addEventListener('click', function () {
     let mode = this.dataset.mode
-    console.log('Option clicked:', mode)
     setTheme(mode)
   })
 }
