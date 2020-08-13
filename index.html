@@ -4,9 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
-    rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="In your role as a professional web developer, jr. or fullstackdeveloper, you're up for just about any website-building challenge. But, building a creative website portfolio">
+  <meta name="keywords" content="web developer portfolio, developer portfolio, software engineer portfolio">
+  <meta name="author" content="soumyadeepsinha soumyadeep-portfolio">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Recursive&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link id="theme-style" rel="stylesheet" type="text/css" href="">
   <title>Soumya'sWebDev</title>
 </head>
 
@@ -38,10 +44,10 @@
           <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
 
           <div id="theme_options_wrapper">
-            <div id="light_mode" class="theme_dot"></div>
-            <div id="blue_mode" class="theme_dot"></div>
-            <div id="green_mode" class="theme_dot"></div>
-            <div id="purple_mode" class="theme_dot"></div>
+            <div data-mode="light" id="light_mode" class="theme_dot"></div>
+            <div data-mode="blue" id="blue_mode" class="theme_dot"></div>
+            <div data-mode="green" id="green_mode" class="theme_dot"></div>
+            <div data-mode="purple" id="purple_mode" class="theme_dot"></div>
           </div>
           <p id="settings_note">*Theme Settings will be saved for <br /> your next visit.</p>
         </div>
@@ -65,9 +71,9 @@
       <div class="about_wrapper">
         <div class="about_me">
           <h4>More About Me</h4>
-          <p>I build new projects just to tickle my brain and love teaching others how they're made.</p>
-          <p>While I keep busy teaching courses, I still take interviews in search of a great team & projects that
-            interest me.
+          <p>I love to build new projects to learn new technologies and customize other projects to blend.</p>
+          <p>While I keep praticing new things, I still take look in other projects that made me fall in love
+            to explore more and more.
           </p>
           <hr>
 
@@ -172,7 +178,7 @@
       </footer>
     </div>
   </section>
-
+  <script src="./app.js"></script>
 </body>
 
 </html>
