@@ -370,6 +370,26 @@ h6 {
   cursor: pointer;
 }
 
+.social_icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: -35px !important;
+}
+
+.social_icons i {
+  color: var(--mainText);
+  font-size: 2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.social_icons i:hover,
+.social_icons i:focus {
+  font-size: 2.2rem;
+  color: var(--linkColor);
+  transition: color all 0.3s linear;
+}
+
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
