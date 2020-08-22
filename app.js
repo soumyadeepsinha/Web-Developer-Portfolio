@@ -5,7 +5,6 @@ if (theme == null) {
   setTheme(theme);
 }
 
-
 let themes = document.getElementsByClassName('theme_dot')
 
 for (let i = 0; themes.length > i; i++) {
